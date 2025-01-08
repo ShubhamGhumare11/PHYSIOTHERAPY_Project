@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { IoChevronDown } from "react-icons/io5";
 import { FiShoppingCart } from "react-icons/fi"; // Cart icon
-import logo from '../Image/ANLogo.png';
+// import logo from '../Images/logo.png';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -35,7 +35,7 @@ const Header = () => {
     <header className="bg-gradient-to-r from-blue-800 to-purple-950 text-white p-3 sticky top-0 z-50 shadow-2xl">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
-        <div className="text-xl font-bold">
+        {/* <div className="text-xl font-bold">
           <Link to="/">
             <img
               src={logo}
@@ -43,7 +43,7 @@ const Header = () => {
               className="w-40 h-auto sm:w-48 md:w-40 lg:w-64"
             />
           </Link>
-        </div>
+        </div> */}
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex space-x-5 lg:space-x-7 text-base lg:text-lg font-serif">
@@ -53,9 +53,7 @@ const Header = () => {
           <Link to="/about" className="hover:text-customLightOrange">
             About
           </Link>
-          <Link to="/numerology" className="hover:text-customLightOrange">
-            Numerology
-          </Link>
+          
 
           {/* Dropdown for Our Services */}
           <div className="relative">
@@ -113,9 +111,6 @@ const Header = () => {
             )}
           </div>
 
-          <Link to="/prediction" className="hover:text-customLightOrange">
-            Predictions
-          </Link>
           <Link to="/videos" className="hover:text-customLightOrange">
             Videos
           </Link>
@@ -166,9 +161,7 @@ const Header = () => {
           <Link to="/about" className="hover:text-customLightOrange" onClick={closeMenu}>
             About
           </Link>
-          <Link to="/numerology" className="hover:text-customLightOrange" onClick={closeMenu}>
-            Numerology
-          </Link>
+        
 
           {/* Mobile Dropdown */}
           <div className="relative">
@@ -224,9 +217,7 @@ const Header = () => {
             )}
           </div>
 
-          <Link to="/prediction" className="hover:text-customLightOrange" onClick={closeMenu}>
-            Predictions
-          </Link>
+       
           <Link to="/videos" className="hover:text-customLightOrange" onClick={closeMenu}>
             Videos
           </Link>
