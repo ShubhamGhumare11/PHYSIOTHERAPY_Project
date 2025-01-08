@@ -7,6 +7,7 @@ import Footer from './Components/Footer';
 
 // Aarti comment2
 //Shubham comm1
+// aarti comm 3
 const ScrollToTop = () => {
   const location = useLocation();
 
