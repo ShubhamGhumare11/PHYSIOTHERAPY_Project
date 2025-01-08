@@ -5,7 +5,7 @@ import Home from './Components/Home';
 import Footer from './Components/Footer';
 
 
-
+// Aarti comment2
 const ScrollToTop = () => {
   const location = useLocation();
 
