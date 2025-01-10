@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-route
 import Header from './Components/Header';
 import Home from './Components/Home';
 import Footer from './Components/Footer';
+import Chatbot from "../src/Components/Chatbot";
+import Contact from './Components/Contact';
 
 
 // Aarti comment2
@@ -24,9 +26,13 @@ function App() {
   return (
     <Router>
       <Header />
+      <Chatbot />
+
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/contact" element={<Contact />} />
+
        {/*   <Route path="/about" element={<About />} />
        <Route path="/numerology" element={<Numerology />} />
         <Route path="/prediction" element={<Prediction />} />
