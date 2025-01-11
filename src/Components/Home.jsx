@@ -4,8 +4,6 @@ import AppointmentForm from "./AppointmentForm";
 import OurServices from "./OurServices";
 import Testimonial from "./Testimonial";
 
-
-
 const Home = () => {
   return (
     <div>
@@ -16,11 +14,6 @@ const Home = () => {
       <OurServices />
       <Testimonial />
 
-
-
-     
-
-   
     
     </div>
   );
