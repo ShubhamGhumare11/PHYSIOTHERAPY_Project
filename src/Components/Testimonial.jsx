@@ -89,7 +89,6 @@
 // );
 
 // export default Testimonial;
-
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css"; // Swiper core styles
@@ -97,31 +96,31 @@ import "swiper/css/navigation"; // Swiper navigation styles
 import "swiper/css/pagination"; // Swiper pagination styles
 
 import { Navigation, Pagination, Autoplay } from "swiper/modules"; // Correct way to import modules
-import review from "../Images/logo.png"
+import review from "../Images/logo.png";
+
 const Testimonial = () => {
   return (
-    <div
-      className="bg-no-repeat bg-cover bg-center relative min-h-fit"
-    //   style={{
-    //     backgroundImage: `url('https://images.unsplash.com/photo-1606938704652-3e588c2c9fd4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1964&q=80')`,
-    //   }}
-    >
-      <div className="absolute bg-gradient-to-r from-orange-300 to-orange-600 opacity-75 inset-0 z-0"></div>
-      <div className="relative flex justify-center items-center ">
-        <div className="grid grid-cols-2 gap-4 items-center">
-          {/* Text Section */}
-          <div className="max-w-lg text-center sm:text-left text-white z-10">
-            <h2 className="text-4xl font-bold tracking-tight">
-              A smile <br className="hidden sm:block lg:hidden" />
-              is an inexpensive way to change your looks
+    <div className="bg-no-repeat bg-cover bg-center relative min-h-fit ">
+          <div className="flex flex-col text-center w-full mb-2 md:mb-6 font-serif">
+            <h2 className="text-4xl font-bold text-customBrown">
+            Happy Customers
             </h2>
-            <p className="mt-4 text-gray-300">
-              Goals are just dreams with deadlines
-            </p>
-            <div className="flex items-center space-x-3 mt-5">
-            
-            </div>
+            <p className="mt-4 text-lg text-customBrown">
+            Thousands of Happy Clients and Counting            </p>
           </div>
+      <div className="relative flex justify-center items-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 items-center w-full max-w-screen-xl p-6 mx-auto">
+          {/* Text Section */}
+          <div class="flex items-center justify-center ">
+       <div class=" text-black p-6 ">
+         <h2 class="text-5xl font-extrabold text-gradient bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-red-500 to-pink-600">
+           What Our Customers Say
+        </h2>
+         <p class="text-3xl font-semibold text-blue-700 mt-4 leading-relaxed">
+           Your trust <span class="text-pink-600">matters</span> to us!
+         </p>
+       </div>
+     </div>
 
           {/* Swiper Section */}
           <div className="relative z-10 text-white">
@@ -129,74 +128,41 @@ const Testimonial = () => {
               modules={[Navigation, Pagination, Autoplay]}
               spaceBetween={30}
               slidesPerView={1}
-          
               pagination={{ clickable: true }}
               autoplay={{ delay: 3000 }}
               className="rounded-lg overflow-hidden"
             >
               <SwiperSlide>
-              <div class="max-w-lg mx-auto">
-    <div class="relative">
-        <div
-            class="flex justify-center items-center h-96 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg overflow-hidden">
-            <div class="px-8">
-                <p class="text-lg font-medium text-white mb-2">"The best experience ever"</p>
-                <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce auctor nisi eget
-                    ornare ultrices. Proin laoreet ultrices nunc vel dapibus.</p>
-                <div class="mt-4 flex items-center">
-                    <img class="h-10 w-10 rounded-full mr-4" src="https://randomuser.me/api/portraits/women/68.jpg" alt="Avatar of person"/>
-                    <div>
-                        <p class="text-white font-medium">Mary Johnson</p>
-                        <p class="text-gray-200">CEO, Acme Inc.</p>
+                <div className="max-w-lg mx-auto">
+                  <div className="relative">
+                    <div className="flex justify-center items-center h-72 sm:h-96 bg-gray-100 rounded-lg overflow-hidden">
+                      <div className="px-8">
+                        <p className="text-lg font-medium text-blue-800 mb-2">
+                          "The best experience ever"
+                        </p>
+                        <p className="text-red-500">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit. Fusce auctor nisi eget ornare ultrices. Proin
+                          laoreet ultrices nunc vel dapibus.
+                        </p>
+                        <div className="mt-4 flex items-center">
+                          <img
+                            className="h-10 w-10 rounded-full mr-4"
+                            src="https://randomuser.me/api/portraits/women/68.jpg"
+                            alt="Avatar of person"
+                          />
+                          <div>
+                            <p className=" text-blue-800 font-medium">Mary Johnson</p>
+                            <p className=" text-blue-800">CEO, Acme Inc.</p>
+                          </div>
+                        </div>
+                      </div>
                     </div>
+                  </div>
                 </div>
-            </div>
-        </div>
-    </div>
-</div>
               </SwiperSlide>
-              <SwiperSlide>
-              <div class="max-w-lg mx-auto">
-    <div class="relative">
-        <div
-            class="flex justify-center items-center h-96  bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg overflow-hidden">
-            <div class="px-8">
-                <p class="text-lg font-medium text-white mb-2">"The best experience ever"</p>
-                <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce auctor nisi eget
-                    ornare ultrices. Proin laoreet ultrices nunc vel dapibus.</p>
-                <div class="mt-4 flex items-center">
-                    <img class="h-10 w-10 rounded-full mr-4" src="https://randomuser.me/api/portraits/women/68.jpg" alt="Avatar of person"/>
-                    <div>
-                        <p class="text-white font-medium">Mary Johnson</p>
-                        <p class="text-gray-200">CEO, Acme Inc.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-              </SwiperSlide>
-              <SwiperSlide>
-              <div class="max-w-lg mx-auto">
-    <div class="relative">
-        <div
-            class="flex justify-center items-center h-96  bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg overflow-hidden">
-            <div class="px-8">
-                <p class="text-lg font-medium text-white mb-2">"The best experience ever"</p>
-                <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce auctor nisi eget
-                    ornare ultrices. Proin laoreet ultrices nunc vel dapibus.</p>
-                <div class="mt-4 flex items-center">
-                    <img class="h-10 w-10 rounded-full mr-4" src="https://randomuser.me/api/portraits/women/68.jpg" alt="Avatar of person"/>
-                    <div>
-                        <p class="text-white font-medium">Mary Johnson</p>
-                        <p class="text-gray-200">CEO, Acme Inc.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-              </SwiperSlide>
+              
+           
             </Swiper>
           </div>
         </div>
