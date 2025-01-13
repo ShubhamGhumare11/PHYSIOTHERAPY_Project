@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
-        <div className="relative mt-16 bg-gradient-to-r from-blue-800 to-purple-950 text-white ">
+        <div className="relative  bg-gradient-to-r from-blue-800 to-purple-950 text-white ">
             <div className="relative z-10 flex flex-col items-start justify-center h-full text-left text-white px-8 md:px-16 lg:px-24 font-serif">
                 <div className="grid gap-16 row-gap-10 mb-8 lg:grid-cols-6 mt-6">
                     <div className="md:max-w-md lg:col-span-2">
