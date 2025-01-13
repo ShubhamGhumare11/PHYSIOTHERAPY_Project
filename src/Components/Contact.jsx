@@ -69,7 +69,7 @@ const Contact = () => {
                 href="tel:+918390005111"
                 className="text-gray-800 hover:text-yellow-600 font-mono"
               >
-                +918390005111
+                +9184822845152
               </a>
             </p>
             <p className="flex items-center gap-2 text-sm sm:text-base">
@@ -78,7 +78,7 @@ const Contact = () => {
                 href="mailto:sumiit@auspiciousnumerology.com"
                 className="text-gray-800 hover:text-yellow-600"
               >
-                sumiit@auspiciousnumerology.com
+                sumiit@gmail.com
               </a>
             </p>
           </div>

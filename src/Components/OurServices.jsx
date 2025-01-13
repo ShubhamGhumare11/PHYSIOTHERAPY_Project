@@ -37,8 +37,8 @@ const OurServices = () => {
                 </a>
                 <div className="px-5 pb-5">
                   <a href="#" >
-                    <h5 className="text-xl font-semibold tracking-tight text-gray-900   truncate">
-                      Vehicle Number Selection
+                    <h5 className="text-xl font-semibold tracking-tight text-gray-900   ">
+                    Exercise Information By Injury
                     </h5>
                   </a>
                   <h3 className="text-black   mb-1 italic line-clamp-2 text-sm">
@@ -104,13 +104,13 @@ const OurServices = () => {
                   </div> */}
 
                   {/* Pricing Section */}
-                  <div className="flex items-center justify-between">
+                  {/* <div className="flex items-center justify-between">
                     <span className="text-lg font-bold text-gray-900  ">
 
                       INR 1,900/-
                     </span>
                     <span className="text-xs text-slate-900">(Duration: 25-30 Days )</span>
-                  </div>
+                  </div> */}
 
                   {/* Button Section */}
                   <a
@@ -147,8 +147,8 @@ const OurServices = () => {
                 </a>
                 <div className="px-5 pb-5">
                   <a href="#">
-                    <h5 className="text-xl font-semibold tracking-tight text-gray-900 truncate">
-                      Lucky Number pendant suggestion or Gem stone suggestion
+                    <h5 className="text-xl font-semibold tracking-tight text-gray-900 ">
+                    Videos & PDFs
                     </h5>
                   </a>
                   <h3 className="text-black mb-1 italic line-clamp-2 text-sm">
@@ -210,12 +210,12 @@ const OurServices = () => {
                   </div> */}
 
                   {/* Pricing Section */}
-                  <div className="flex items-center justify-between">
+                  {/* <div className="flex items-center justify-between">
                     <span className="text-lg font-bold text-gray-900">
                       INR 1,900/-
                     </span>
                     <span className="text-xs text-slate-900">(Duration: 25-30 Days)</span>
-                  </div>
+                  </div> */}
   {/* Button Section */}
   <a
                     href="#"
@@ -254,8 +254,8 @@ const OurServices = () => {
                 </a>
                 <div className="px-5 pb-5">
                   <a href="#">
-                    <h5 className="text-xl font-semibold tracking-tight text-gray-900   truncate">
-                      Mobile Number Selection
+                    <h5 className="text-xl font-semibold tracking-tight text-gray-900   ">
+                     Video Call Consultation
                     </h5>
                   </a>
                   <h3 className="text-black   mb-1 italic line-clamp-2 text-sm">
@@ -321,13 +321,13 @@ const OurServices = () => {
                   </div> */}
 
                   {/* Pricing Section */}
-                  <div className="flex items-center justify-between">
+                  {/* <div className="flex items-center justify-between">
                     <span className="text-lg font-bold text-gray-900  ">
 
                       INR 1,900/-
                     </span>
                     <span className="text-xs text-slate-900">(Duration: 25-30 Days )</span>
-                  </div>
+                  </div> */}
 
                   {/* Button Section */}
                    <a
@@ -366,7 +366,7 @@ const OurServices = () => {
                 <div className="px-5 pb-5">
                   <a href="#">
                     <h5 className="text-xl font-semibold tracking-tight text-gray-900   truncate">
-                      Name spelling change or Baby name suggestion
+                   Sport Injury 
                     </h5>
                   </a>
                   <h3 className="text-black   mb-1 italic line-clamp-2 text-sm">
@@ -432,13 +432,13 @@ const OurServices = () => {
                   </div> */}
 
                   {/* Pricing Section */}
-                  <div className="flex items-center justify-between">
+                  {/* <div className="flex items-center justify-between">
                     <span className="text-lg font-bold text-gray-900  ">
 
                       INR 2,800/-
                     </span>
                     <span className="text-xs text-slate-900">(Duration: 25-30 Days )</span>
-                  </div>
+                  </div> */}
 
                   {/* Button Section */}
                   <a
