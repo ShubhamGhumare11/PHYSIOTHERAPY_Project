@@ -491,6 +491,72 @@
 
 
 
+// import React from 'react';
+ 
+// const Card = ({ icon, title, description }) => {
+//     return (
+// <div className="border-2 border-red-500 p-6 rounded-lg text-center bg-red-50 w-56 h-56 flex flex-col items-center justify-center shadow-md">
+// <img src={icon} alt={title} className="w-16 h-16 mb-4" />
+// <h3 className="font-bold text-lg">{title}</h3>
+// <p className="text-sm mt-2 text-gray-700">{description}</p>
+// </div>
+//     );
+// };
+ 
+// const OurServices = () => {
+//     const cards = [
+//         {
+//             icon: "https://img.icons8.com/ios-filled/50/hand.png",
+//             title: "PREVENTION",
+//             description: "It's never too early to prevent pain"
+//         },
+//         {
+//             icon: "https://img.icons8.com/ios-filled/50/plus.png",
+//             title: "ACUTE",
+//             description: "Repair, recover and regain mobility"
+//         },
+//         {
+//             icon: "https://img.icons8.com/ios-filled/50/refresh.png",
+//             title: "CHRONIC",
+//             description: "A solution to live pain free and happy life"
+//         },
+//         {
+//             icon: "https://img.icons8.com/ios-filled/50/person-working-with-a-table.png",
+//             title: "PRE AND POST OP",
+//             description: "Prepare for and recover from operation"
+//         }
+//     ];
+ 
+//     return (
+// <div className="flex items-center justify-center min-h-screen bg-white text-center p-8">
+// <div className="grid grid-cols-3 grid-rows-3 gap-4 w-[1100px] h-[400px]">
+// <div className="flex items-center justify-center"><Card {...cards[0]} /></div>
+// <div></div>
+// <div className="flex items-center justify-center"><Card {...cards[1]} /></div>
+// <div></div>
+// <div className="flex flex-col items-center justify-center">
+// <p className="text-gray-500 uppercase">ALL CONDITIONS</p>
+// <h1 className="text-5xl font-bold">
+//                         A life <span className="text-red-500">without pain</span> is possible
+// </h1>
+// <p className="text-gray-500 mt-4">Whatever your journey, we have a program to support you</p>
+// <button className="mt-6 px-8 py-3 bg-red-500 text-white rounded-full hover:bg-red-600 transition-all">
+//                         Make me pain free Today →
+// </button>
+// </div>
+// <div></div>
+// <div className="flex items-center justify-center"><Card {...cards[2]} /></div>
+// <div></div>
+// <div className="flex items-center justify-center"><Card {...cards[3]} /></div>
+// </div>
+// </div>
+//     );
+// };
+ 
+// export default OurServices;
+
+
+
 import React from 'react';
  
 const Card = ({ icon, title, description }) => {
@@ -528,13 +594,13 @@ const OurServices = () => {
     ];
  
     return (
-<div className="flex items-center justify-center min-h-screen bg-white text-center p-8">
-<div className="grid grid-cols-3 grid-rows-3 gap-4 w-[1100px] h-[400px]">
+<div className="flex items-center justify-center  bg-white text-center p-8">
+<div className="grid grid-cols-1 sm:grid-cols-3 sm:grid-rows-3 gap-4 w-full max-w-5xl">
 <div className="flex items-center justify-center"><Card {...cards[0]} /></div>
 <div></div>
 <div className="flex items-center justify-center"><Card {...cards[1]} /></div>
 <div></div>
-<div className="flex flex-col items-center justify-center">
+<div className="flex flex-col items-center justify-center p-4">
 <p className="text-gray-500 uppercase">ALL CONDITIONS</p>
 <h1 className="text-5xl font-bold">
                         A life <span className="text-red-500">without pain</span> is possible
@@ -554,4 +620,3 @@ const OurServices = () => {
 };
  
 export default OurServices;
-

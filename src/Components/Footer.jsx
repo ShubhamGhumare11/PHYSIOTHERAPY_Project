@@ -165,7 +165,7 @@ const Footer = () => {
               </p>
               <div className="mt-4 lg:max-w-sm xl:max-w-screen-md">
               <p className="text-sm text-deep-purple-50">
-            
+
 Plot No. 1, House number 1243, Rukhmini Nagar, Wankhede Layout, 
 Sawangi Meghe
 WARDHA, MAHARASHTRA 442001
@@ -175,14 +175,18 @@ India
              
             </div>
             
-  <iframe 
+  {/* <iframe 
     class="w-full h-30 sm:h-40 md:h-50 lg:h-60" 
     frameborder="0" 
     scrolling="no" 
     marginheight="0" 
     marginwidth="0" 
     src="https://maps.google.com/maps?width=300&amp;height=200&amp;hl=en&amp;q=307,%20Gera's%20Imperium%20Rise,%20Hinjawadi%20Phase%20II,%20Hinjawadi%20Rajiv%20Gandhi%20Infotech%20Park,%20Hinjawadi,%20Pune,%20Pimpri-Chinchwad,%20Maharashtra%20411057,%20India+(19+%20Sports%20Injury)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
-  </iframe>
+  </iframe> */}
+
+
+
+<iframe   class="w-full h-30 sm:h-40 md:h-50 lg:h-60" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=300&amp;height=200&amp;hl=en&amp;q=20%C2%B043'40.5%22N%2078%C2%B034'45.8%22E+(19+%20Sports%20Injury)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps systems</a></iframe>
 </div>
 
 
