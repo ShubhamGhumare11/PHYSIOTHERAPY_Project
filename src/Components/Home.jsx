@@ -3,6 +3,7 @@ import Carousel from "./Corousel";
 import AppointmentForm from "./AppointmentForm";
 import OurServices from "./OurServices";
 import Testimonial from "./Testimonial";
+import ServicesCard from '../Test Components/ServicesCard';
 
 const Home = () => {
   return (
@@ -13,6 +14,9 @@ const Home = () => {
 
       <OurServices />
       <Testimonial />
+      <ServicesCard />
+  
+
 
     
     </div>
