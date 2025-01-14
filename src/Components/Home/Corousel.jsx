@@ -7,7 +7,12 @@ const Carousel = () => {
       <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="relative z-10 max-w-screen-lg mx-auto p-6 flex justify-center items-center h-full text-center">
           <div>
-            <h2 className="text-4xl font-semibold mb-4">Recover Stronger, Live Healthier</h2>
+          <h2 className="text-4xl font-semibold mb-4">19+ Sports Injury and Physiotherapy Clinic</h2>
+
+            <h5 className="text-xl   font-semibold mb-4">Recover Stronger, Live Healthier</h5>
+            
+            
+        
             <p className="mb-6">Get back on track with personalized sports injury treatment and rehabilitation plans.</p>
             <a href="#appointment" className="bg-orange-500 text-white py-2 px-6 rounded-lg text-lg">Book Your Appointment</a>
           </div>
