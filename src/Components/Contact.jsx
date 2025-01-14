@@ -119,7 +119,14 @@ const Contact = () => {
               <FaTwitter />
             </a>
           </div>
+          <div className=" flex flex-wrap sm:flex-row sm:space-x-4 my-7 ">
+       <iframe width="500" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=300&amp;height=200&amp;hl=en&amp;q=307,%20Gera's%20Imperium%20Rise,%20Hinjawadi%20Phase%20II,%20Hinjawadi%20Rajiv%20Gandhi%20Infotech%20Park,%20Hinjawadi,%20Pune,%20Pimpri-Chinchwad,%20Maharashtra%20411057,%20India+(19+%20Sports%20Injury)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps devices</a></iframe>
+          
         </div>
+        </div>
+
+       
+
 
         <div className="flex-1 p-4 sm:p-6 md:p-8 lg:p-10 bg-gray-50 rounded-lg shadow-md">
           <form onSubmit={handleSubmit} className="space-y-4 font-serif">
