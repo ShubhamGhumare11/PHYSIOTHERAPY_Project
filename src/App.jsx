@@ -5,6 +5,7 @@ import Home from './Pages/Home';
 import Footer from './Components/Other/Footer';
 import Chatbot from "./Components/Other/Chatbot";
 import Contact from './Components/Other/Contact';
+import BlogBanner from './TestComponent/BlogBanner';
 
 // Aarti comment2
 //Shubham comm1
@@ -31,6 +32,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/blogs" element={<BlogBanner />} />
+
 
        
 
