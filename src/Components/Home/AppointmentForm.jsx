@@ -8,7 +8,7 @@ import {
   FaInstagram,
   FaYoutube,
 } from "react-icons/fa";
-import Chatbot from "../Chatbot";
+import Chatbot from "../Other/Chatbot";
 // import { appointmentFormat, sendEmailWithAttachment } from "../Email-service/emailSendingService";
 
 const AppointmentForm = () => {

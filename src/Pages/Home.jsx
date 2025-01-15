@@ -5,6 +5,8 @@ import Carousel from "../Components/Home/Corousel";
 import AppointmentForm from "../Components/Home/AppointmentForm";
 import OurServices from "../Components/Home/OurServices";
 import Testimonial from "../Components/Home/Testimonial";
+import ServicesCard from "../Test Components/ServicesCard";
+
 
 const Home = () => {
   return (
@@ -17,6 +19,8 @@ const Home = () => {
 
       <OurServices />
       <Testimonial />
+      <ServicesCard />
+
 
     
     </div>

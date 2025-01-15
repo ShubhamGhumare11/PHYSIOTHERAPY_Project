@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
-import Header from './Components/Header';
+import Header from './Components/Other/Header';
 import Home from './Pages/Home';
-import Footer from './Components/Footer';
-import Chatbot from "../src/Components/Chatbot";
-import Contact from './Components/Contact';
+import Footer from './Components/Other/Footer';
+import Chatbot from "./Components/Other/Chatbot";
+import Contact from './Components/Other/Contact';
 
 // Aarti comment2
 //Shubham comm1

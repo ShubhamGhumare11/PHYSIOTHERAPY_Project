@@ -6,9 +6,9 @@ import {
   FaInstagram,
   FaSearchengin,
 } from "react-icons/fa";
-import Logo from "../Images/logo.png";
-import android from "../Images/android.png";
-import ios from "../Images/ios.jpg";
+import Logo from "../../Images//logo.png";
+import android from "../../Images/android.png";
+import ios from "../../Images/ios.jpg";
 // import TermsConditions from './TermsConditions';
 // import PrivacyPolicy from './PrivacyPolicy';
 import { Link } from "react-router-dom";
