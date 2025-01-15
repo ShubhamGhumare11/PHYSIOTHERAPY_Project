@@ -6,7 +6,6 @@ import Footer from './Components/Footer';
 import Chatbot from "../src/Components/Chatbot";
 import Contact from './Components/Contact';
 
-
 // Aarti comment2
 //Shubham comm1
 // aarti comm 3
@@ -32,6 +31,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
+
+       
 
        {/*   <Route path="/about" element={<About />} />
        <Route path="/numerology" element={<Numerology />} />
