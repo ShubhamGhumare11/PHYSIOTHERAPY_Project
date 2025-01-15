@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import herosection from "../Images/AppointmentForm.jpg";
+import herosection from "../../Images/AppointmentForm.jpg";
 import { IoCallOutline } from "react-icons/io5";
 import { TfiEmail } from "react-icons/tfi";
 import {
@@ -8,7 +8,7 @@ import {
   FaInstagram,
   FaYoutube,
 } from "react-icons/fa";
-import Chatbot from "./Chatbot";
+import Chatbot from "../Other/Chatbot";
 // import { appointmentFormat, sendEmailWithAttachment } from "../Email-service/emailSendingService";
 
 const AppointmentForm = () => {
