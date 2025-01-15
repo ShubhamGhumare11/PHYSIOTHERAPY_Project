@@ -20,7 +20,7 @@ const OurMission = () => {
             maxWidth: '80%',
         },
         heading: {
-            fontSize: '2.5rem',
+            fontSize: '3.5rem',
             marginBottom: '20px',
         },
         paragraph: {
@@ -34,7 +34,7 @@ const OurMission = () => {
             <div style={styles.content}>
                 <h1 style={styles.heading}>Our Mission</h1>
                 <p style={styles.paragraph}>
-                    To enable people to be mentally & physically strong, so they can live their Dream Lives
+                    To enable people to be mentally & physically strong, so they can live their Dream Lives.
                 </p>
                 <p style={styles.paragraph}>
                     We are committed to educating & helping people live a life free of pain, injury & limitations.
