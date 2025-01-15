@@ -189,8 +189,8 @@
 
 import React from "react";
 import { motion } from "framer-motion"; // Import framer-motion
-import backgroundImage from "F:/project/Phisiotherapy/src/Image/p1.jpg"; // Correct image path
-import logoImage from "F:/project/Phisiotherapy/src/Image/P2.avif"; // Correct image path
+import backgroundImage from "./Image/p1.jpg"; // Correct image path
+import logoImage from "./Image/P2.avif"; // Correct image path
 import p3Image from "./Image/p3.webp";
 import p4Image from "./Image/p4.webp";
 import p5Image from "./Image/p5.jpg";
@@ -247,7 +247,7 @@ function BlogBanner() {
   ];
 
   return (
-    <div>
+    <div className="font-serif">
       {/* Blog Banner */}
       <motion.div
         style={{
@@ -282,7 +282,7 @@ function BlogBanner() {
             style={{ flex: 1 }}
             initial={{ x: -100 }} // Start from left (offscreen)
             animate={{ x: 0 }} // Slide to its original position
-            transition={{ duration: 1, type: "spring", stiffness: 50 }} // Smooth slide-in effect
+            transition={{ duration: 5, type: "spring", stiffness: 50 }} // Smooth slide-in effect
           >
             <h1 style={{ fontSize: "3rem", marginBottom: "10px", color: "#dac292" }}>
             Explore Wellness Through 
@@ -300,7 +300,7 @@ function BlogBanner() {
             style={{ marginLeft: "20px", borderRadius: "50%", overflow: "hidden" }}
             initial={{ scale: 0 }} // Start from scale 0 (small)
             animate={{ scale: 1 }} // Zoom in to normal size
-            transition={{ duration: 0.8, type: "spring", stiffness: 80 }} // Zoom-in effect
+            transition={{ duration: 5, type: "spring", stiffness: 200 }} // Zoom-in effect
           >
             <img
               src={logoImage}
