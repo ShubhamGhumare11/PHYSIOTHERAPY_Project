@@ -22,7 +22,8 @@ const Home = () => {
       <OurServices />
       <Testimonial />
       <ServicesCard />
-      <OurMission />
+      {/* <OurMission /> */}
+
 
 
 
