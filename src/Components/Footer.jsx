@@ -1,10 +1,10 @@
 import React from 'react';
 import { FaTwitter, FaFacebookSquare, FaYoutube, FaInstagram, FaSearchengin  } from 'react-icons/fa';
-// import ANLogo from "../Image/ANLogo.png";
+import Logo from "../Images/logo.png";
 import android from "../Images/android.png";
 import ios from "../Images/ios.jpg";
-import TermsConditions from './TermsConditions';
-import PrivacyPolicy from './PrivacyPolicy';
+// import TermsConditions from './TermsConditions';
+// import PrivacyPolicy from './PrivacyPolicy';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
@@ -13,18 +13,18 @@ const Footer = () => {
             <div className="relative z-10 flex flex-col items-start justify-center h-full text-left text-white px-8 md:px-16 lg:px-24 font-serif">
                 <div className="grid gap-16 row-gap-10 mb-8 lg:grid-cols-6 mt-6">
                     <div className="md:max-w-md lg:col-span-2">
-                        <img src={ANLogo} className="w-56 h-12 mr-4" />
+                        <img src={Logo} className="w-56 h-12 mr-4" />
                         <div className="mt-4 lg:max-w-sm xl:max-w-screen-md">
                             <p className="text-sm text-deep-purple-50">
-                                Dr. Messhram’s journey into numerology began in his formative years when his innate talent for precise predictions emerged.
-                            </p>
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa                       
+     </p>
                             <p className="mt-4 text-sm text-deep-purple-50">
-                                Over time, he has honed his skills and developed a scientific approach to numerology, making his predictions grounded, logical, and incredibly accurate, thus creating Auspicious Numerology.
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
                             </p>
                         </div>
                     </div>
                     <div className="grid grid-cols-2 gap-5 row-gap-8 xl:col-span-4 lg:col-span-4 md:grid-cols-4">
-                        <div>
+                        {/* <div>
                             <p className="font-semibold tracking-wide text-yellow-600">
                                 Category
                             </p>
@@ -42,15 +42,15 @@ const Footer = () => {
                             </ul>
 
 
-                        </div>
+                        </div> */}
                         <div>
                             <p className="font-semibold tracking-wide text-yellow-600">
                                 Quick Links
                             </p>
                             <ul className="mt-2 space-y-2">
                                 <li>
-                                    <Link to="/prediction" className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400">
-                                        Predictions
+                                    <Link to="/" className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400">
+                                        Home
                                     </Link>
                                 </li>
                                 <li>
@@ -134,9 +134,9 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="w-full mx-auto border-t border-deep-purple-accent-200 max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
-                    <span className="text-sm text-white sm:text-center">© Copyright 2024 Auspicious Numerology. All rights reserved.</span>
+                    <span className="text-sm text-white sm:text-center">© Copyright 2024 19+ Sports Injury. All rights reserved.</span>
                     <span className="flex flex-wrap items-center mt-3 text-sm font-medium text-white sm:mt-0">
-                        Designed by: UI/UX Partners
+                        {/* Designed by: UI/UX Partners */}
                     </span>
                 </div>
             </div>
