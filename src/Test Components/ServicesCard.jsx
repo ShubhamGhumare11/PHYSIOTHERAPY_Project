@@ -21,14 +21,15 @@ function ServicesCard() {
   };
 
   return (
-    <div className="flex flex-col md:flex-row items-center justify-between min-h-screen bg-gray-900 text-white px-6 py-10">
+<div className="flex flex-row items-center justify-between  bg-gray-900 text-white px-6 py-10 rounded-3xl lg:max-w-7xl md:max-w-3xl  sm:max-w-xl mx-auto">
+  
    
       {/* Center Section */}
       <div className="md:w-1/2 text-center space-y-6">
-        <h2 className="text-2xl md:text-3xl font-semibold text-white-50">
+        <h2 className="text-2xl sm:text-xl  md:text-2xll  lg:text-2xl  font-semibold ">
           WHAT WE TREAT
         </h2>
-        <h1 className="text-4xl md:text-5xl font-bold leading-tight">
+        <h1 className="text-4xl md:text-5xl  md:text-5xl lg:text-7xl font-bold leading-tight">
           SAY<br />
           <span className="text-orange-500">GOODBYE</span><br />
           TO PAIN

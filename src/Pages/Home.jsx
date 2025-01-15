@@ -6,6 +6,8 @@ import AppointmentForm from "../Components/Home/AppointmentForm";
 import OurServices from "../Components/Home/OurServices";
 import Testimonial from "../Components/Home/Testimonial";
 import ServicesCard from "../Test Components/ServicesCard";
+import OurMission from "../Test Components/OurMission";
+
 
 
 const Home = () => {
@@ -20,6 +22,8 @@ const Home = () => {
       <OurServices />
       <Testimonial />
       <ServicesCard />
+      <OurMission />
+
 
 
     
