@@ -69,7 +69,7 @@ const Contact = () => {
                 href="tel:+918390005111"
                 className="text-gray-800 hover:text-yellow-600 font-mono"
               >
-                +9184822845152
+                +919503161111 / +919960613111
               </a>
             </p>
             <p className="flex items-center gap-2 text-sm sm:text-base">
@@ -119,7 +119,13 @@ const Contact = () => {
               <FaTwitter />
             </a>
           </div>
+          <div className=" flex flex-wrap sm:flex-row sm:space-x-4 my-7 ">
+      <iframe width="500" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=300&amp;height=200&amp;hl=en&amp;q=20%C2%B043'40.5%22N%2078%C2%B034'45.8%22E+(19+%20Sports%20Injury)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps systems</a></iframe>          
         </div>
+        </div>
+
+       
+
 
         <div className="flex-1 p-4 sm:p-6 md:p-8 lg:p-10 bg-gray-50 rounded-lg shadow-md">
           <form onSubmit={handleSubmit} className="space-y-4 font-serif">

@@ -1,14 +1,10 @@
 import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 import Header from './Components/Header';
-import Home from './Components/Home';
+import Home from './Pages/Home';
 import Footer from './Components/Footer';
 import Chatbot from "../src/Components/Chatbot";
 import Contact from './Components/Contact';
-import ServicesCard from './Test Components/ServicesCard';
-
-
-
 
 // Aarti comment2
 //Shubham comm1
@@ -35,8 +31,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/" element={<ServicesCard/>} />
-        
+
+       
 
        {/*   <Route path="/about" element={<About />} />
        <Route path="/numerology" element={<Numerology />} />
