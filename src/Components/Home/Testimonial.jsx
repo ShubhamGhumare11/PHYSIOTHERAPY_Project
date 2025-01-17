@@ -89,6 +89,9 @@
 // );
 
 // export default Testimonial;
+
+
+
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css"; // Swiper core styles
@@ -112,15 +115,16 @@ const Testimonial = () => {
       <div className="relative flex justify-center items-center ">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 items-center w-full max-w-screen-xl p-6 mx-auto">
           {/* Text Section */}
-          <div className="flex items-center justify-center">
-            <div className="text-gray-700 p-6">
-              <h2 className="text-5xl font-extrabold text-customBrown">
-                What Our Customers Say
-              </h2>
-              <p className="text-2xl font-semibold text-customBrown mt-4 leading-relaxed">
-                Your trust <span className="text-customBrown">matters</span> to us!
-              </p>
-            </div>
+          <div className="flex ">
+          <div className="text-start flex flex-col  justify-center ">
+<h1 className="text-5xl font-bold text-customBrown" >
+Hear from Our  <span className="text-blue-800">Happy Clients</span>  
+</h1>
+<p className="text-gray-500 mt-4">Discover How Our Patients Found Relief and Renewed Health</p>
+<button className="mt-6 px-8 py-3 bg-customBrown text-white rounded-full hover:bg-red-600 transition-all">
+Read More Stories  →
+</button>
+</div>
           </div>
 
           {/* Swiper Section */}

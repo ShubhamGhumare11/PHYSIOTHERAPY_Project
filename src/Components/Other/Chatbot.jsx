@@ -59,7 +59,7 @@ const Chatbot = () => {
                 size={24}
               />
               <span className="ml-2 text-white font-medium text-base">
-                Book your appointment
+                Chat With Us
               </span>
 
             </>
@@ -79,7 +79,7 @@ const Chatbot = () => {
               </div>
               <div className="ml-3">
                 <h3 className="text-gray-900 text-xl font-bold font-serif">
-                  Book Your Appointment
+                 
                 </h3>
                 <p className="text-gray-600 text-sm font-sans">
                   Available between 6-9 PM

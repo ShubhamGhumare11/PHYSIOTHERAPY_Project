@@ -5,11 +5,11 @@ import {
   Routes,
   useLocation,
 } from "react-router-dom";
-import Header from "./Components/Header";
-import Home from "./Components/Home";
-import Footer from "./Components/Footer";
-import Chatbot from "./Components/Chatbot";
-import Contact from "./Components/Contact";
+import Header from "./Components/Other/Header";
+import Home from "./Pages/Home";
+import Footer from "./Components/Other/Footer";
+import Chatbot from "./Components/Other/Chatbot";
+import Contact from "./Components/Other/Contact";
 import Quize from "./sport-injury-recommender/Quize";
 
 const ScrollToTop = () => {
