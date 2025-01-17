@@ -187,7 +187,6 @@
 
 // export default BlogBanner;
 
-<<<<<<< HEAD
 // import React from "react";
 // import { motion } from "framer-motion"; // Import framer-motion
 // import backgroundImage from "./Image/p1.jpg"; // Correct image path
@@ -1598,18 +1597,10 @@
 //     </div>
 //   );
 // }
-
-// export default BlogBanner;
 import React, { useRef, useEffect } from "react";
 import { motion } from "framer-motion";
 import backgroundImage from "./Image/p1.jpg";
 import logoImage from "./Image/P2.avif"; 
-=======
-import React from "react";
-import { motion } from "framer-motion"; // Import framer-motion
-import backgroundImage from "./Image/p1.jpg"; // Correct image path
-import logoImage from "./Image/P2.avif"; // Correct image path
->>>>>>> 06b468112d37306f2487121444f98531c09de17a
 import p3Image from "./Image/p3.webp";
 import p4Image from "./Image/p4.webp";
 import p5Image from "./Image/p5.jpg";
@@ -1718,15 +1709,9 @@ function BlogBanner() {
           {/* Left side (Text) */}
           <motion.div
             style={{ flex: 1 }}
-<<<<<<< HEAD
             initial={{ x: -100 }}
             animate={{ x: 0 }}
             transition={{ duration: 1, type: "spring", stiffness: 50 }}
-=======
-            initial={{ x: -100 }} // Start from left (offscreen)
-            animate={{ x: 0 }} // Slide to its original position
-            transition={{ duration: 5, type: "spring", stiffness: 50 }} // Smooth slide-in effect
->>>>>>> 06b468112d37306f2487121444f98531c09de17a
           >
             <h1
               style={{
@@ -1755,31 +1740,22 @@ function BlogBanner() {
           </motion.div>
 
           {/* Right side (Logo Image) */}
-<<<<<<< HEAD
-          <div
-            style={{
-              marginLeft: "20px",
-              borderRadius: "50%",
-              overflow: "hidden",
-            }}
-=======
           <motion.div
             style={{ marginLeft: "20px", borderRadius: "50%", overflow: "hidden" }}
-            initial={{ scale: 0 }} // Start from scale 0 (small)
-            animate={{ scale: 1 }} // Zoom in to normal size
-            transition={{ duration: 5, type: "spring", stiffness: 200 }} // Zoom-in effect
->>>>>>> 06b468112d37306f2487121444f98531c09de17a
+            initial={{ scale: 0 }}
+            animate={{ scale: 1 }}
+            transition={{ duration: 1, type: "spring", stiffness: 200 }}
           >
             <img
               src={logoImage}
               alt="Auspicious Numerology Logo"
               style={{
-                width: "250px", // Make the logo smaller for responsiveness
+                width: "250px",
                 height: "250px",
                 objectFit: "cover",
               }}
             />
-          </div>
+          </motion.div>
         </div>
       </motion.div>
 
@@ -1888,7 +1864,9 @@ function BlogBanner() {
               Dive Deeper into Wellness
             </h2>
             <h4 style={{ marginBottom: "20px" }}>
-              Explore a diverse range of articles designed to enhance your physical and mental well-being.From practical fitness tips and nutritious recipes to mindfulness practices and stress management strategies, you'll find valuable insights and actionable advice to support a healthier, happier lifestyle. Stay informed and motivated with our expert-curated content that covers the latest trends and timeless wisdom in wellness.
+              Explore a diverse range of articles designed to enhance your physical and mental well-being.
+              From practical fitness tips and nutritious recipes to mindfulness practices and stress management strategies, 
+              you'll find valuable insights and actionable advice to support a healthier, happier lifestyle.
             </h4>
             <p style={{ fontSize: "1.2rem", marginTop: "20px" }}>
               Your journey to a healthier lifestyle starts here!
