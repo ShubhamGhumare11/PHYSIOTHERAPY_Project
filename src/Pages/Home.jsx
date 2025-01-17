@@ -65,14 +65,7 @@ const Home = () => {
         <ServicesCard />
       </motion.div>
 
-      {/* OurMission */}
-      <motion.div
-        whileInView={{ opacity: 1, y: 0 }} // Slide up on scroll
-        initial={{ opacity: 0, y: 50 }} // Starts lower
-        transition={{ duration: 1, delay: 1.2 }} // Added delay for staggered effect
-      >
-        <OurMission />
-      </motion.div>
+     
     </div>
   );
 };
