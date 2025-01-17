@@ -16,7 +16,7 @@
     "auspiciousnumerology": "file:",
     "axios": "^1.7.5",
     "cuid": "^3.0.0",
-    "framer-motion": "^11.17.0",
+    "framer-motion": "^11.18.0",
     "jspdf": "^2.5.2",
     "keen-slider": "^6.8.6",
     "nodemailer": "^6.9.14",
