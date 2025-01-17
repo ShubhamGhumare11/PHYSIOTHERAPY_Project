@@ -23,17 +23,17 @@ const Home = () => {
       {/* HowWorks */}
       <motion.div
         whileInView={{ opacity: 1 }}
-        initial={{ opacity: 0 }}
-        transition={{ duration: 1, delay: 0.2 }} // Added delay for staggered effect
+      // Added delay for staggered effect
       >
         <HowWorks />
       </motion.div>
 
       {/* AppointmentForm */}
       <motion.div
-        whileInView={{ opacity: 1 }}
-        initial={{ opacity: 0 }}
-        transition={{ duration: 1, delay: 0.4 }} // Added delay for staggered effect
+       
+        whileInView={{ opacity: 1, scale: 1 }}
+        initial={{ opacity: 0, scale: 0.8 }}
+        transition={{ duration: 0.8 , delay: 1 }} 
       >
         <AppointmentForm />
       </motion.div>
@@ -49,9 +49,9 @@ const Home = () => {
 
       {/* Testimonial */}
       <motion.div
-        whileInView={{ opacity: 1 }}
-        initial={{ opacity: 0 }}
-        transition={{ duration: 1, delay: 0.8 }} // Added delay for staggered effect
+        whileInView={{ opacity: 1, scale: 1  }}
+        initial={{ opacity: 0 , scale: 0.5 }}
+        transition={{ duration: 0.5, delay: 1 }} // Added delay for staggered effect
       >
         <Testimonial />
       </motion.div>
