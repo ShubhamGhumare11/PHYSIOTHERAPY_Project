@@ -20,25 +20,25 @@ const AgeGroupForm = ({ formData, setFormData, nextStep }) => {
   };
 
   return (
-    <div className="flex justify-center items-center min-h-screen bg-gradient-to-r from-blue-100 to-blue-200">
-      <div className="w-full max-w-3xl px-8">
+    <div className="flex justify-center items-center min-h-screen bg-gradient-to-r from-blue-100 to-blue-200 px-4">
+      <div className="w-full max-w-3xl px-4">
         {/* Heading Section */}
-        <h2 className="text-4xl font-extrabold text-center text-gray-800 mb-8">
+        <h2 className="text-4xl font-extrabold text-center text-gray-800 mb-6">
           Which age group do you belong to?
         </h2>
-        <p className="text-lg text-center text-gray-600 mb-8">
+        <p className="text-lg text-center text-gray-600 mb-6">
           Please select your age group
         </p>
 
-        {/* Button-like Radio Options (First Row with 3 per line) */}
-        <div className="flex justify-between mb-8">
+        {/* Button-like Radio Options (Responsive Grid Layout) */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-6">
           {/* Below 18 Option */}
           <label
-            className={`flex items-center gap-3 cursor-pointer px-6 py-4 text-lg font-semibold rounded-full border-2 transition duration-300 ${
+            className={`flex items-center justify-center gap-3 cursor-pointer px-6 py-4 text-lg font-semibold rounded-full border-2 transition duration-300 ${
               formData.ageGroup === "below18"
                 ? "bg-black text-white border-black"
                 : "bg-white text-black border-gray-400 hover:border-black"
-            } w-1/3`}
+            }`}
           >
             <input
               type="radio"
@@ -53,11 +53,11 @@ const AgeGroupForm = ({ formData, setFormData, nextStep }) => {
 
           {/* 18 to 24 Option */}
           <label
-            className={`flex items-center gap-3 cursor-pointer px-6 py-4 text-lg font-semibold rounded-full border-2 transition duration-300 ${
+            className={`flex items-center justify-center gap-3 cursor-pointer px-6 py-4 text-lg font-semibold rounded-full border-2 transition duration-300 ${
               formData.ageGroup === "18to24"
                 ? "bg-black text-white border-black"
                 : "bg-white text-black border-gray-400 hover:border-black"
-            } w-1/3`}
+            }`}
           >
             <input
               type="radio"
@@ -72,11 +72,11 @@ const AgeGroupForm = ({ formData, setFormData, nextStep }) => {
 
           {/* 25 to 30 Option */}
           <label
-            className={`flex items-center gap-3 cursor-pointer px-6 py-4 text-lg font-semibold rounded-full border-2 transition duration-300 ${
+            className={`flex items-center justify-center gap-3 cursor-pointer px-6 py-4 text-lg font-semibold rounded-full border-2 transition duration-300 ${
               formData.ageGroup === "25to30"
                 ? "bg-black text-white border-black"
                 : "bg-white text-black border-gray-400 hover:border-black"
-            } w-1/3`}
+            }`}
           >
             <input
               type="radio"
@@ -88,17 +88,14 @@ const AgeGroupForm = ({ formData, setFormData, nextStep }) => {
             />
             25 to 30
           </label>
-        </div>
 
-        {/* Button-like Radio Options (Second Row with 3 per line) */}
-        <div className="flex justify-between mb-8">
           {/* 31 to 35 Option */}
           <label
-            className={`flex items-center gap-3 cursor-pointer px-6 py-4 text-lg font-semibold rounded-full border-2 transition duration-300 ${
+            className={`flex items-center justify-center gap-3 cursor-pointer px-6 py-4 text-lg font-semibold rounded-full border-2 transition duration-300 ${
               formData.ageGroup === "31to35"
                 ? "bg-black text-white border-black"
                 : "bg-white text-black border-gray-400 hover:border-black"
-            } w-1/3`}
+            }`}
           >
             <input
               type="radio"
@@ -113,11 +110,11 @@ const AgeGroupForm = ({ formData, setFormData, nextStep }) => {
 
           {/* 36 to 40 Option */}
           <label
-            className={`flex items-center gap-3 cursor-pointer px-6 py-4 text-lg font-semibold rounded-full border-2 transition duration-300 ${
+            className={`flex items-center justify-center gap-3 cursor-pointer px-6 py-4 text-lg font-semibold rounded-full border-2 transition duration-300 ${
               formData.ageGroup === "36to40"
                 ? "bg-black text-white border-black"
                 : "bg-white text-black border-gray-400 hover:border-black"
-            } w-1/3`}
+            }`}
           >
             <input
               type="radio"
@@ -132,11 +129,11 @@ const AgeGroupForm = ({ formData, setFormData, nextStep }) => {
 
           {/* 40 Above Option */}
           <label
-            className={`flex items-center gap-3 cursor-pointer px-6 py-4 text-lg font-semibold rounded-full border-2 transition duration-300 ${
+            className={`flex items-center justify-center gap-3 cursor-pointer px-6 py-4 text-lg font-semibold rounded-full border-2 transition duration-300 ${
               formData.ageGroup === "40above"
                 ? "bg-black text-white border-black"
                 : "bg-white text-black border-gray-400 hover:border-black"
-            } w-1/3`}
+            }`}
           >
             <input
               type="radio"
@@ -157,7 +154,7 @@ const AgeGroupForm = ({ formData, setFormData, nextStep }) => {
         <div className="flex justify-center">
           <button
             onClick={handleNext}
-            className="px-10 py-4 bg-black text-white font-bold text-lg rounded-none hover:bg-gray-900 transition duration-300"
+            className="px-10 py-4 bg-black text-white font-bold text-lg rounded hover:bg-gray-900 transition duration-300"
           >
             Next
           </button>

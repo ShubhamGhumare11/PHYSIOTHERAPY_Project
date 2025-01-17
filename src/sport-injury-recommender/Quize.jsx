@@ -29,18 +29,6 @@ const Quiz = () => {
     if (step > 1) setStep((prevStep) => prevStep - 1);
   };
 
-  const resetQuiz = () => {
-    setStep(1);
-    setFormData({
-      name: "",
-      email: "",
-      gender: "",
-      ageGroup: "",
-      injuryType: "",
-      injurySeverity: "",
-    });
-  };
-
   const renderStep = () => {
     switch (step) {
       case 1:
@@ -107,7 +95,7 @@ const Quiz = () => {
       {renderStep()}
 
       {/* Navigation Buttons */}
-      {step > 1 && step <= totalSteps && (
+      {step > 1 && step < totalSteps && (
         <div className="fixed bottom-4 left-4">
           <button
             onClick={prevStep}
@@ -117,19 +105,8 @@ const Quiz = () => {
           </button>
         </div>
       )}
-      {step === totalSteps && (
-        <div className="fixed bottom-4 right-4">
-          <button
-            onClick={resetQuiz}
-            className="bg-black text-white py-2 px-4 rounded-md hover:bg-gray-800 transition"
-          >
-            Start Over
-          </button>
-        </div>
-      )}
     </div>
   );
 };
 
 export default Quiz;
-   

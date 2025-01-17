@@ -53,7 +53,7 @@ const NameForm = ({ formData, setFormData, nextStep }) => {
         <div className="flex justify-center">
           <button
             onClick={handleSubmit}
-            className="px-10 py-4 bg-black text-white font-bold text-lg rounded-none hover:bg-gray-900 transition duration-300"
+            className="px-10 py-4 bg-black text-white font-bold text-lg rounded hover:bg-gray-900 transition duration-300"
           >
             Submit
           </button>
