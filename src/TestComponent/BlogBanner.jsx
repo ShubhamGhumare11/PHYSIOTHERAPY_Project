@@ -187,6 +187,7 @@
 
 // export default BlogBanner;
 
+<<<<<<< HEAD
 // import React from "react";
 // import { motion } from "framer-motion"; // Import framer-motion
 // import backgroundImage from "./Image/p1.jpg"; // Correct image path
@@ -1603,6 +1604,12 @@ import React, { useRef, useEffect } from "react";
 import { motion } from "framer-motion";
 import backgroundImage from "./Image/p1.jpg";
 import logoImage from "./Image/P2.avif"; 
+=======
+import React from "react";
+import { motion } from "framer-motion"; // Import framer-motion
+import backgroundImage from "./Image/p1.jpg"; // Correct image path
+import logoImage from "./Image/P2.avif"; // Correct image path
+>>>>>>> 06b468112d37306f2487121444f98531c09de17a
 import p3Image from "./Image/p3.webp";
 import p4Image from "./Image/p4.webp";
 import p5Image from "./Image/p5.jpg";
@@ -1675,7 +1682,7 @@ function BlogBanner() {
   }, []);
 
   return (
-    <div>
+    <div className="font-serif">
       {/* Blog Banner */}
       <motion.div
         style={{
@@ -1711,9 +1718,15 @@ function BlogBanner() {
           {/* Left side (Text) */}
           <motion.div
             style={{ flex: 1 }}
+<<<<<<< HEAD
             initial={{ x: -100 }}
             animate={{ x: 0 }}
             transition={{ duration: 1, type: "spring", stiffness: 50 }}
+=======
+            initial={{ x: -100 }} // Start from left (offscreen)
+            animate={{ x: 0 }} // Slide to its original position
+            transition={{ duration: 5, type: "spring", stiffness: 50 }} // Smooth slide-in effect
+>>>>>>> 06b468112d37306f2487121444f98531c09de17a
           >
             <h1
               style={{
@@ -1742,12 +1755,20 @@ function BlogBanner() {
           </motion.div>
 
           {/* Right side (Logo Image) */}
+<<<<<<< HEAD
           <div
             style={{
               marginLeft: "20px",
               borderRadius: "50%",
               overflow: "hidden",
             }}
+=======
+          <motion.div
+            style={{ marginLeft: "20px", borderRadius: "50%", overflow: "hidden" }}
+            initial={{ scale: 0 }} // Start from scale 0 (small)
+            animate={{ scale: 1 }} // Zoom in to normal size
+            transition={{ duration: 5, type: "spring", stiffness: 200 }} // Zoom-in effect
+>>>>>>> 06b468112d37306f2487121444f98531c09de17a
           >
             <img
               src={logoImage}
