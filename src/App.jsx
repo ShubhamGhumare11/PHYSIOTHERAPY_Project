@@ -10,6 +10,8 @@ import Home from "./Pages/Home";
 import Footer from "./Components/Other/Footer";
 import Chatbot from "./Components/Other/Chatbot";
 import Contact from "./Components/Other/Contact";
+import Blog from "./TestComponent/BlogBanner";
+
 import Quize from "./sport-injury-recommender/Quize";
 
 const ScrollToTop = () => {
@@ -32,6 +34,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/quize" element={<Quize />} />
+        <Route path="/blogs" element={<Blog />} />
+
       </Routes>
       <Footer />
     </Router>
