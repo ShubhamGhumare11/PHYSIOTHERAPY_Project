@@ -594,8 +594,8 @@ const OurServices = () => {
     ];
  
     return (
-<div className="flex items-center justify-center  bg-white text-center p-2">
-<div className="grid grid-cols-1 sm:grid-cols-3 sm:grid-rows-3 gap-1 w-full max-w-5xl">
+<div className="flex items-center justify-center  bg-white text-center p-2 ">
+<div className="grid grid-cols-1 sm:grid-cols-3 sm:grid-rows-3 gap-4 w-full max-w-5xl max-h-xs">
 <div className="flex items-center justify-center"><Card {...cards[0]} /></div>
 <div></div>
 <div className="flex items-center justify-center"><Card {...cards[1]} /></div>

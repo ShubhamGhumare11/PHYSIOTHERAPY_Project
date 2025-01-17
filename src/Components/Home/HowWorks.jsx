@@ -7,8 +7,11 @@ const StepCard = ({ icon, title, description, number }) => {
     <motion.div
       initial={{ opacity: 0, y: 50 }} // Initially invisible and 50px lower
       whileInView={{ opacity: 1, y: 0 }} // Fade in and slide to original position
-      viewport={{ once: true, amount: 0.5 }} // Trigger animation when 50% of the card is in view
-      transition={{ duration: 0.6 }} // Apply transition on each card
+        //   transition={{ duration: 0.6 }} // Apply transition on each card
+
+        //    initial={{ opacity: 0, scale: 0.8 }}
+        transition={{ duration: 0.8 , delay: 1 }} 
+      
       className="flex flex-col items-center justify-center text-center relative"
     >
       <div className="w-32 h-32 border-4 border-orange-500 rounded-full flex items-center justify-center">
@@ -51,6 +54,8 @@ const HowWorks = () => {
   ];
 
   return (
+
+    <div className="lg:max-h-full">
     <motion.div
       className="flex flex-col items-center justify-center bg-white p-8"
       initial="hidden"
@@ -86,6 +91,7 @@ const HowWorks = () => {
         ))}
       </motion.div>
     </motion.div>
+    </div>
   );
 };
 

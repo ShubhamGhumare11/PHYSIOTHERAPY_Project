@@ -8,6 +8,8 @@ const InjuryForm = ({ formData, setFormData, nextStep }) => {
     }));
   };
 
+  
+
   return (
     <div className="flex justify-center items-center min-h-screen bg-gradient-to-r from-blue-100 to-blue-300">
       <div className="w-full max-w-5xl px-8 py-12">
