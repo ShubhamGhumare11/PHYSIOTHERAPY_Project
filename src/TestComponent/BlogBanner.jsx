@@ -189,8 +189,8 @@
 
 import React from "react";
 import { motion } from "framer-motion"; // Import framer-motion
-import backgroundImage from "F:/project/Phisiotherapy/src/Image/p1.jpg"; // Correct image path
-import logoImage from "F:/project/Phisiotherapy/src/Image/P2.avif"; // Correct image path
+import backgroundImage from "./Image/p1.jpg"; // Correct image path
+import logoImage from "./Image/P2.avif"; // Correct image path
 import p3Image from "./Image/p3.webp";
 import p4Image from "./Image/p4.webp";
 import p5Image from "./Image/p5.jpg";
