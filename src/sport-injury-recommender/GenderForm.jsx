@@ -20,21 +20,21 @@ const GenderForm = ({ formData, setFormData, nextStep }) => {
   };
 
   return (
-    <div className="flex justify-center items-center min-h-screen bg-gradient-to-r from-blue-100 to-blue-200">
-      <div className="w-full max-w-xl px-8">
+    <div className="flex justify-center items-center min-h-screen bg-gradient-to-r from-blue-100 to-blue-200 px-4">
+      <div className="w-full max-w-md px-6">
         {/* Heading Section */}
-        <h2 className="text-4xl font-extrabold text-center text-gray-800 mb-8">
+        <h2 className="text-4xl font-extrabold text-center text-gray-800 mb-6">
           Almost there! Let’s move on to your gender
         </h2>
-        <p className="text-lg text-center text-gray-600 mb-8">
+        <p className="text-lg text-center text-gray-600 mb-6">
           Please select your gender
         </p>
 
-        {/* Button-like Radio Options (Horizontal Layout) */}
-        <div className="flex justify-center gap-6 mb-8">
+        {/* Button-like Radio Options (Vertical Layout) */}
+        <div className="flex flex-col gap-4 mb-6">
           {/* Male Option */}
           <label
-            className={`flex items-center justify-center gap-3 cursor-pointer px-6 py-4 text-lg font-semibold rounded-full border-2 transition duration-300 ${
+            className={`flex items-center justify-between cursor-pointer px-6 py-4 text-lg font-semibold rounded-full border-2 transition duration-300 ${
               formData.gender === "male"
                 ? "bg-black text-white border-black"
                 : "bg-white text-black border-gray-400 hover:border-black"
@@ -53,7 +53,7 @@ const GenderForm = ({ formData, setFormData, nextStep }) => {
 
           {/* Female Option */}
           <label
-            className={`flex items-center justify-center gap-3 cursor-pointer px-6 py-4 text-lg font-semibold rounded-full border-2 transition duration-300 ${
+            className={`flex items-center justify-between cursor-pointer px-6 py-4 text-lg font-semibold rounded-full border-2 transition duration-300 ${
               formData.gender === "female"
                 ? "bg-black text-white border-black"
                 : "bg-white text-black border-gray-400 hover:border-black"
@@ -72,7 +72,7 @@ const GenderForm = ({ formData, setFormData, nextStep }) => {
 
           {/* Prefer Not to Say Option */}
           <label
-            className={`flex items-center justify-center gap-3 cursor-pointer px-6 py-4 text-lg font-semibold rounded-full border-2 transition duration-300 ${
+            className={`flex items-center justify-between cursor-pointer px-6 py-4 text-lg font-semibold rounded-full border-2 transition duration-300 ${
               formData.gender === "preferNotToSay"
                 ? "bg-black text-white border-black"
                 : "bg-white text-black border-gray-400 hover:border-black"
@@ -97,7 +97,7 @@ const GenderForm = ({ formData, setFormData, nextStep }) => {
         <div className="flex justify-center">
           <button
             onClick={handleNext}
-            className="px-10 py-4 bg-black text-white font-bold text-lg rounded-none hover:bg-gray-900 transition duration-300"
+            className="px-10 py-4 bg-black text-white font-bold text-lg rounded hover:bg-gray-900 transition duration-300"
           >
             Next
           </button>
