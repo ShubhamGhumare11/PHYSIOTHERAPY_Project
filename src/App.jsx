@@ -12,6 +12,7 @@ import Chatbot from "./Components/Other/Chatbot";
 import Contact from "./Components/Other/Contact";
 import Blog from "./TestComponent/BlogBanner";
 
+
 import Quize from "./sport-injury-recommender/Quize";
 
 const ScrollToTop = () => {
